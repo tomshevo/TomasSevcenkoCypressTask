@@ -1,0 +1,297 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-18T18:02:36.721Z",
+    "end": "2022-12-18T18:03:42.949Z",
+    "duration": 35788,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4d5ed68c-19e6-47c4-bbc3-e8580e5f1db3",
+      "title": "",
+      "fullFile": "cypress/e2e/darshboardpage.cy.js",
+      "file": "cypress/e2e/darshboardpage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fa48e0ed-e722-421d-b69b-c8ac89fecb9c",
+          "title": "Dashboard page error",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Something went wrong in the Dashboard page",
+              "fullTitle": "Dashboard page error Something went wrong in the Dashboard page",
+              "timedOut": null,
+              "duration": 11453,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_DashboardPage.DashboardPage.claimingTokensDashboardPage();\n_DashboardPage.DashboardPage.selectingNetworkDashboardPage();\n_DashboardPage.DashboardPage.claimButtonDashboardPage();\n_DashboardPage.DashboardPage.validateError('Something went wrong, please try again');",
+              "err": {},
+              "uuid": "7ff19cd6-436d-43f7-a38d-4ca45b0c6bb3",
+              "parentUUID": "fa48e0ed-e722-421d-b69b-c8ac89fecb9c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7ff19cd6-436d-43f7-a38d-4ca45b0c6bb3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11453,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "5057ed83-fe12-4462-96f8-84e3eac5608b",
+      "title": "",
+      "fullFile": "cypress/e2e/sendpage.cy.js",
+      "file": "cypress/e2e/sendpage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ed5bd70e-f68a-492c-bc09-2a02914dbecd",
+          "title": "Send page test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Send page error message",
+              "fullTitle": "Send page test cases Send page error message",
+              "timedOut": null,
+              "duration": 6510,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_SendPage.WrapPage.selectingStreamPage();\n_SendPage.WrapPage.selectingStreamPageAdress();\n_SendPage.WrapPage.selectingReceiver('0xD92ea85056AB223a279Cd8dEf240cB4F0F7a24aa');\n_SendPage.WrapPage.selectingTokenButton();\n_SendPage.WrapPage.selectingTDLToken();\n_SendPage.WrapPage.selectingFlowRate('123');\n_SendPage.WrapPage.validateError('You can\\'t stream to yourself.');",
+              "err": {},
+              "uuid": "20483052-33b5-46a1-bf4c-840b544e514b",
+              "parentUUID": "ed5bd70e-f68a-492c-bc09-2a02914dbecd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "20483052-33b5-46a1-bf4c-840b544e514b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6510,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c5ee580a-6600-4d80-b66c-6024aafcf80e",
+      "title": "",
+      "fullFile": "cypress/e2e/superfluid.cy.js",
+      "file": "cypress/e2e/superfluid.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "dfd1e707-2e00-4584-baf3-49eb14216998",
+          "title": "Connecting and switching network",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Connecting with a Mock wallet and switching the network",
+              "fullTitle": "Connecting and switching network Connecting with a Mock wallet and switching the network",
+              "timedOut": null,
+              "duration": 2287,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();",
+              "err": {},
+              "uuid": "08178e5b-949e-4935-8320-7f6596120259",
+              "parentUUID": "dfd1e707-2e00-4584-baf3-49eb14216998",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "08178e5b-949e-4935-8320-7f6596120259"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2287,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "fb662e62-c864-46a0-884a-dd3066fc5a25",
+      "title": "",
+      "fullFile": "cypress/e2e/wrappage.cy.js",
+      "file": "cypress/e2e/wrappage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+          "title": "Wrap page test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Wrap page max button",
+              "fullTitle": "Wrap page test cases Wrap page max button",
+              "timedOut": null,
+              "duration": 7547,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_WrapPage.WrapPage.wrapPage();\n_WrapPage.WrapPage.wrapPageMaxButton();\n_WrapPage.WrapPage.validateError('You are wrapping out of native asset used for gas. You need to leave some gas tokens for the transaction to succeed.');",
+              "err": {},
+              "uuid": "f91fbfab-e290-4dcf-86ed-dbc7ef639c92",
+              "parentUUID": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wrap page not enough balance",
+              "fullTitle": "Wrap page test cases Wrap page not enough balance",
+              "timedOut": null,
+              "duration": 7991,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_WrapPage.WrapPage.wrapPage();\n_WrapPage.WrapPage.inputWrapAmount(\"5\");\n_WrapPage.WrapPage.validateError('You do not have enough balance.');",
+              "err": {},
+              "uuid": "b7528c17-304b-4053-a105-e103d4a266d7",
+              "parentUUID": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f91fbfab-e290-4dcf-86ed-dbc7ef639c92",
+            "b7528c17-304b-4053-a105-e103d4a266d7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15538,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "html": false,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

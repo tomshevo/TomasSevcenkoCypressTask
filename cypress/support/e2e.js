@@ -22,6 +22,7 @@ Cypress.on("uncaught:exception", (err, runnable) => {
         err.message.includes("invalid decimal value")) {
         return false
     }
+
 });
 
 // Alternatively you can use CommonJS syntax:

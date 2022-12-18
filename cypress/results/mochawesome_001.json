@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-18T18:02:59.841Z",
+    "end": "2022-12-18T18:03:06.501Z",
+    "duration": 6660,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5057ed83-fe12-4462-96f8-84e3eac5608b",
+      "title": "",
+      "fullFile": "cypress/e2e/sendpage.cy.js",
+      "file": "cypress/e2e/sendpage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ed5bd70e-f68a-492c-bc09-2a02914dbecd",
+          "title": "Send page test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Send page error message",
+              "fullTitle": "Send page test cases Send page error message",
+              "timedOut": null,
+              "duration": 6510,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_SendPage.WrapPage.selectingStreamPage();\n_SendPage.WrapPage.selectingStreamPageAdress();\n_SendPage.WrapPage.selectingReceiver('0xD92ea85056AB223a279Cd8dEf240cB4F0F7a24aa');\n_SendPage.WrapPage.selectingTokenButton();\n_SendPage.WrapPage.selectingTDLToken();\n_SendPage.WrapPage.selectingFlowRate('123');\n_SendPage.WrapPage.validateError('You can\\'t stream to yourself.');",
+              "err": {},
+              "uuid": "20483052-33b5-46a1-bf4c-840b544e514b",
+              "parentUUID": "ed5bd70e-f68a-492c-bc09-2a02914dbecd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "20483052-33b5-46a1-bf4c-840b544e514b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6510,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "html": false,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

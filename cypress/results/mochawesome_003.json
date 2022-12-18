@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-18T18:03:27.249Z",
+    "end": "2022-12-18T18:03:42.949Z",
+    "duration": 15700,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fb662e62-c864-46a0-884a-dd3066fc5a25",
+      "title": "",
+      "fullFile": "cypress/e2e/wrappage.cy.js",
+      "file": "cypress/e2e/wrappage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+          "title": "Wrap page test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Wrap page max button",
+              "fullTitle": "Wrap page test cases Wrap page max button",
+              "timedOut": null,
+              "duration": 7547,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_WrapPage.WrapPage.wrapPage();\n_WrapPage.WrapPage.wrapPageMaxButton();\n_WrapPage.WrapPage.validateError('You are wrapping out of native asset used for gas. You need to leave some gas tokens for the transaction to succeed.');",
+              "err": {},
+              "uuid": "f91fbfab-e290-4dcf-86ed-dbc7ef639c92",
+              "parentUUID": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wrap page not enough balance",
+              "fullTitle": "Wrap page test cases Wrap page not enough balance",
+              "timedOut": null,
+              "duration": 7991,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_BasePage.BasePage.visitWithMockedWallet(\"/\");\n_LoginPage.LoginPage.connectingWithMockWallet();\n_LoginPage.LoginPage.selectingNetwork();\n_WrapPage.WrapPage.wrapPage();\n_WrapPage.WrapPage.inputWrapAmount(\"5\");\n_WrapPage.WrapPage.validateError('You do not have enough balance.');",
+              "err": {},
+              "uuid": "b7528c17-304b-4053-a105-e103d4a266d7",
+              "parentUUID": "f793ee76-368a-44ec-ba8c-c64a198d9451",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f91fbfab-e290-4dcf-86ed-dbc7ef639c92",
+            "b7528c17-304b-4053-a105-e103d4a266d7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15538,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "html": false,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
